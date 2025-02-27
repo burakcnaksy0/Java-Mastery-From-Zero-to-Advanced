@@ -1,2 +1,15 @@
-# Java-Mastery-From-Zero-to-Advanced
-🚀 This repository documents my journey from beginner to advanced in Java, focusing on mastering core concepts, OOP, SOLID principles, and clean code. As a backend developer specializing in Java and Spring Boot, I'm building strong fundamentals to develop scalable applications. Stay tuned for real-world examples and best practices!
+# Java Mastery: From Zero to Advanced
+
+## 🚀 About This Repository
+This repository documents my journey from beginner to advanced in Java. My goal is to build a strong foundation in Java and master backend development with Spring Boot. I will be writing and uploading various Java programs, following clean code practices, SOLID principles, and real-world examples.
+
+## 📌 Topics Covered
+- Java Fundamentals (Variables, Data Types, Operators, Loops, etc.)
+- Object-Oriented Programming (OOP: Encapsulation, Inheritance, Polymorphism, Abstraction)
+- Exception Handling
+- Collections Framework
+- Multi-threading & Concurrency
+- Functional Programming (Streams & Lambda Expressions)
+- Design Patterns
+- Clean Code & Best Practices
+
