@@ -2,7 +2,7 @@ package L3_ConditionStructures;
 
 import java.util.Scanner;
 
-public class D10_AsalSayi {
+public class D10_PrimeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

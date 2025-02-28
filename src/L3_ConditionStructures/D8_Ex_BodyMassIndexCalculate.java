@@ -2,7 +2,7 @@ package L3_ConditionStructures;
 
 import java.util.Scanner;
 
-public class D8_Ex_VücutKitleIndeksCalculate {
+public class D8_Ex_BodyMassIndexCalculate {
     public static void main(String[] args) {
         System.out.println("********** VÜCUT KİTLE İNDEKSİ HESABI **********");
 

@@ -2,7 +2,7 @@ package L3_ConditionStructures;
 
 import java.util.Scanner;
 
-public class D9_PiyangoOyunu {
+public class D9_LotteryGame {
     public static void main(String[] args) {
 
         for (int i = 0; i < 20; i++) {

@@ -1,6 +1,6 @@
-package L4_MetotlarVeDiziler;
+package L4_MethosAndArrays;
 
-public class D1_Metotlar {
+public class D1_Methods {
     public static void main(String[] args) {
         showMenu();
         sumofnumbers(5, 8);

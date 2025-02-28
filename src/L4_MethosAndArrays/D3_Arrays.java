@@ -1,8 +1,8 @@
-package L4_MetotlarVeDiziler;
+package L4_MethosAndArrays;
 
 import java.util.Scanner;
 
-public class D3_Diziler {
+public class D3_Arrays {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("dizinin boyutunu giriniz: ");

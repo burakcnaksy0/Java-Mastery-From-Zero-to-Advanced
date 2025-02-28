@@ -1,4 +1,4 @@
-package L4_MetotlarVeDiziler;
+package L4_MethosAndArrays;
 
 import java.util.Scanner;
 
@@ -31,6 +31,12 @@ public class D4_ArraysExample {
         System.out.println("dizinin toplamı : " + sum);
         avg = sum / dizi.length;
         System.out.println("dizini ortalaması  :" + avg);
+
+
+        // foreach usage
+        for (int i : dizi) {
+            System.out.println("girilen değerler : " + i);
+        }
 
     }
 }

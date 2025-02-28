@@ -1,4 +1,4 @@
-package L4_MetotlarVeDiziler;
+package L4_MethosAndArrays;
 
 import java.util.Scanner;
 
