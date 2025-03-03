@@ -2,6 +2,14 @@ package L4_MethosAndArrays;
 
 public class D9_MethodEX_1 {
     public static void main(String[] args) {
+
+        /*
+        100 elemanlı bir dizi oluşturun ve bu dizinin tüm elemanlarını
+        rastgele olacak şekilde üretin. Bu işlemden sonra dizideki
+        elemanların ortalamasını hesaplayarak bu ortalamanın altında kaç
+        tane eleman olduğunu yazdırın.
+        */
+
         int[] values = new int[100];
         for (int i = 0; i < values.length; i++) {
             values[i] = (int) (Math.random() * 99 + 1);
