@@ -3,6 +3,8 @@ package L6_OOP_Structures;
 public class D1_Composition {
     public static void main(String[] args) {
         Motor motor = new Motor("V8");
+        Araba araba = new Araba("honda civic", motor);
+        araba.startCar();
     }
 }
 
@@ -19,7 +21,7 @@ class Motor {
     }
 }
 
-// Araba sınıfı (Engine nesnesini içerir)
+// Araba sınıfı (Motor nesnesini içerir)
 class Araba {
     private String model;
     private Motor motor;  // Kompozisyon kullanımı

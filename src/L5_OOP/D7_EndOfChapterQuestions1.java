@@ -11,8 +11,8 @@ public class D7_EndOfChapterQuestions1 {
      */
 
     public static void main(String[] args) {
-        Ogrenci tumOgrenciler[] = new Ogrenci[100];
-        for (int i = 0; i < 100; i++) {
+        Ogrenci[] tumOgrenciler = new Ogrenci[100];
+        for (int i = 0; i < tumOgrenciler.length; i++) {
             int rastgeleID = (int) (Math.random() * 5000);
             int rastgeleNotDegeri = (int) (Math.random() * 100);
             Ogrenci yeni = new Ogrenci(rastgeleID, rastgeleNotDegeri);
@@ -22,6 +22,8 @@ public class D7_EndOfChapterQuestions1 {
         for (int i = 0; i < 100; i++) {
             tumOgrenciler[i].ogrenciBilgileriniYazdir();
         }
+        System.out.println(tumOgrenciler[0]);
+
     }
 
     private static void ogrencileriNotlarinaGoreSirala(Ogrenci[] tumOgrenciler) {
@@ -47,10 +49,12 @@ public class D7_EndOfChapterQuestions1 {
 class Ogrenci {
     private int id;
     private int notDegeri;
+    static int count;
 
     public Ogrenci(int id, int notDegeri) {
         this.id = id;
         this.notDegeri = notDegeri;
+        count++;
     }
 
     public int getId() {
@@ -71,5 +75,10 @@ class Ogrenci {
 
     public void ogrenciBilgileriniYazdir() {
         System.out.println("id :" + id + " not:" + notDegeri);
+    }
+
+    @Override
+    public String toString() {
+        return "sayaç : " + count;
     }
 }

@@ -19,8 +19,8 @@ public class D3_Inheritance {
 
 // Üst sınıf (Base Class / Parent Class)
 class Vehicle {
-    protected String brand;
-    protected int speed;
+    public String brand;
+    public int speed;
 
     public Vehicle(String brand, int speed) {
         this.brand = brand;

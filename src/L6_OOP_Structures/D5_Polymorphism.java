@@ -6,20 +6,56 @@ public class D5_Polymorphism {
         Parent p = new Child();
         Üst sınıf değişkeninin alt sınıf nesnelerini referans edebilmesidir.
          */
-        Animal animals = new Animal();
-        Dog dogs = new Dog();
-        Cat cats = new Cat();
+
+        /*
+        int sayi = 10;
+        double sonuc = sayi; // Implicit casting (int → double)
+
+        double pi = 3.14;
+        int yuvarlanmisPi = (int) pi; // Explicit casting (double → int)
+         */
+
+        Animal animals = new Animal(); // implicit , upcasting
+        Animal dogs = new Dog();
+        Animal cats = new Cat();
+
+        ((Dog) dogs).toRun();
+        ((Cat) cats).toClimb();
 
         tellMeName(animals);
         tellMeName(dogs);
         tellMeName(cats);
 
+        Animal a1 = new Animal();
+        Cat c1 = new Cat();
+        Dog d1 = new Dog();
+
+        tellMeName(a1);
+        tellMeName(c1);
+        tellMeName(d1);
+
+        System.out.println();
+
+        Dog dg = (Dog) dogs;  // explicit , downcasting
+
+        tellMeName(dg);
+
     }
 
     public static void tellMeName(Animal animal) {
+        /*
+        if (animal instanceof Cat) {        // polymorphism olmasaydı.
+            Cat c1 = (Cat) animal;
+            c1.makeSound();
+        } else if (animal instanceof Dog) {
+            Dog d1 = (Dog) animal;
+            d1.makeSound();
+        } else {
+            animal.makeSound(); */
         animal.makeSound();
     }
 }
+
 
 // Üst sınıf (Super Class)
 class Animal {
@@ -69,6 +105,10 @@ class Dog extends Animal {
     public void makeSound() {
         System.out.println("Köpek havlıyor: Hav hav!");
     }
+
+    public void toRun() {
+        System.out.println("the dog can run.");
+    }
 }
 
 // Alt sınıf (Subclass) - Metodu Override ediyor
@@ -94,5 +134,9 @@ class Cat extends Animal {
     @Override
     public void makeSound() {
         System.out.println("Kedi miyavlıyor: Miyav miyav!");
+    }
+
+    public void toClimb() {
+        System.out.println("the cat can climb.");
     }
 }

@@ -1,8 +1,6 @@
 package L6_OOP_Structures;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-
 /*
         CarDealership (Araba Bayisi) sınıfı, birden fazla Car (Araba) nesnesine sahiptir.
         Car (Araba) sınıfı, bir Engine (Motor) ve Owner (Sahip) nesnesine sahiptir.

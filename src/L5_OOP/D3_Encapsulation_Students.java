@@ -8,11 +8,16 @@ public class D3_Encapsulation_Students {
     private boolean status;
 
     D3_Encapsulation_Students(String name, String surname, int no, byte sınıf, boolean status) {
-        this.name = name;
+        /*this.name = name;
         this.surname = surname;
         this.no = no;
         this.sınıf = sınıf;
-        this.status = status;
+        this.status = status; */
+        setName(name);
+        setSurname(surname);
+        setNo(no);
+        setSınıf(sınıf);
+        setStatus(status);
 
     }
 
