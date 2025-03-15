@@ -28,6 +28,23 @@ public class D1_AbstractClass {
         compareArea(triangle, rectangle);
         compareArea(square, triangle);
         compareArea(rectangle, square);
+
+        /*     AnonymousInnerClass Usage Example
+        normalde abstract olan class tan nesne oluşturamayız ama
+        bu class tipini kullanarak {} ifadelerinden sonra abstact class
+        içindeki abstract methodlarını yazmak şartıyla kullanabiliriz.
+
+        GeometricShape g = new GeometricShape(){
+            void area(){
+                System.out.println("area");
+            }
+            void perimeter(){
+                System.out.println("perimeter");
+            }
+        };
+        g.area();
+        g.perimeter();
+         */
     }
 
     public static void compareArea(GeometricShape g1, GeometricShape g2) {
