@@ -6,8 +6,8 @@ This repository documents my journey from beginner to advanced in Java. My goal 
 ## 📌 Topics Covered
 - Java Fundamentals (Variables, Data Types, Operators, Loops, etc.)
 - Object-Oriented Programming (OOP: Encapsulation, Inheritance, Polymorphism, Abstraction)
-- Exception Handling
 - Collections Framework
+- Exception Handling
 - Multi-threading & Concurrency
 - Functional Programming (Streams & Lambda Expressions)
 - Design Patterns
