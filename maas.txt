@@ -1,0 +1,6 @@
+burak 100000
+ceren 60000
+kenan 35000
+mesut 25000
+rıza 50000
+hüsnü 20000
